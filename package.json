@@ -1,0 +1,11 @@
+{
+  "name": "dia-10-08",
+  "version": "1.0.0",
+  "description": "NPM criado na atividade do dia 10/08",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilhams Gomes",
+  "license": "ISC"
+}

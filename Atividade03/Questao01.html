@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    </head>
+
+    <body>
+        
+        <form>
+
+            <fieldset>
+
+                <legend>Manuntenção do órgão colegiado</legend>
+
+                <table border="1"> 
+                    <tr>
+                        <th style="background-color: rgb(157, 230, 233);">Unidade</th>
+                        <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                    </tr>
+                    <tr>
+                        <th style="background-color: rgb(157, 230, 233);">Tipo Colegiado</th>
+                        <td>Congregação</td>
+                    </tr>
+                    
+                    <tr>
+                        <th style="background-color: rgb(157, 230, 233);" colspan="20">Órgão Colegiado</th>
+                    </tr>
+                </table>
+                
+                <br>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+
+                <br><br>
+
+                <label for="sigla">Sigla:</label>
+                <input type="text" name="sigla">
+
+                <label>Status:</label>
+                <select>
+
+                    <option value="ativado">ATIVADO</option>
+                    <option value="desativado">DESATIVADO</option>
+                 
+                </select>    
+
+                <br><br>
+
+                <label for="dateAtiva">Data de ativação:</label>
+                <input type="date" name="dateAtiva">
+
+                <label for="dateDesativa">Data de desativação:</label>
+                <input type="date" name="dateDesativa">
+
+                <br><br>
+
+                <label for="origem">Órgão de origem:</label>
+                <input type="text" name="origem">
+                <button id="origem" name="origem">Buscar</button>
+
+                <br><br>
+
+                <label for="superior">Órgão superior:</label>
+                <input type="text" name="superior">
+                <button id="superior" name="superior">Buscar</button>
+
+                <br><br>
+
+                <label>Documentação:</label>
+                <textarea name="documentacao" id="documentacao" cols="100" rows="10"></textarea>
+
+                <br><br>
+
+                <button id="salvar" name="salvar">Salvar</button>
+                <button id="excluir" name="excluir">Excluir</button>
+
+            </fieldset>
+
+
+        </form>
+        
+    </body>
+
+
+</html>
